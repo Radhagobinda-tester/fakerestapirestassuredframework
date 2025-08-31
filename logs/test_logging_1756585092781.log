@@ -1,0 +1,601 @@
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Wireless Mouse",
+    "price": 25.99,
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "image": "https://i.pravatar.cc/100",
+    "category": "electronic"
+}
+HTTP/1.1 201 Created
+Date: Sat, 30 Aug 2025 20:18:16 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 170
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"aa-2s4ER7pcE44Unm4fsx7WRXafGXE"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=wf2cc3rYujMZE4i492Vj6xGRrJFhfLz1eKcxaZI8JynIVkPL%2FcCEW1hbzn9j2MvB3FICCTDVpSErXbIWIf0GvoI4HbL%2BYS8ZD%2BONMK8Ib2Y%3D"}]}
+Server: cloudflare
+CF-RAY: 9776f9f42d305781-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Wireless Mouse",
+    "price": 25.99,
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "image": "https://i.pravatar.cc/100",
+    "category": "electronic"
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/products/21
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=21
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:17 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hmDQz9WPok1JraP%2FEm7CweTqhHMD8MDWSPazI9FjUutKmc9jVtKsqVYZvYEATCL%2BjrKyRgWooZ4gQmkhHRU89%2B9mppMPw1y9%2F6g7Sf84BnA%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776f9f8ae33bd42-LHR
+alt-svc: h3=":443"; ma=86400
+
+null
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Gaming Keyboard",
+    "price": 49.99,
+    "description": "Mechanical gaming keyboard with RGB backlight.",
+    "image": "https://i.pravatar.cc/101",
+    "category": "electronic"
+}
+HTTP/1.1 201 Created
+Date: Sat, 30 Aug 2025 20:18:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 172
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"ac-ndnF/0854GxNZKo6UJkXi4Xiqyo"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=D%2Fxi3D7gB%2BFyOCWT%2FYRV9vUPOuEN%2FboX83y65uotdS%2BHtss7C%2FgLyTZ4nWjqpJHFycv5OOGGF%2BeSRZyOU%2F5Z33lSGoESRKpRQYEpJfcK"}]}
+Server: cloudflare
+CF-RAY: 9776f9fdac70edef-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Gaming Keyboard",
+    "price": 49.99,
+    "description": "Mechanical gaming keyboard with RGB backlight.",
+    "image": "https://i.pravatar.cc/101",
+    "category": "electronic"
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/products/21
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=21
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:18 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=aVegMNKiYX4QtPayo0jUdoYFQVNC5X8tqsgG2wxtdiBhOo2Y4OT32fWZXJHGZasicK%2BX0%2FafrQKJ%2Bvc5klRwiX4z9BTJ2LM7BvwHx6oq"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa026b4eef41-LHR
+alt-svc: h3=":443"; ma=86400
+
+null
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Bluetooth Headphones",
+    "price": 79.99,
+    "description": "Noise-canceling over-ear headphones with deep bass.",
+    "image": "https://i.pravatar.cc/102",
+    "category": "electronics"
+}
+HTTP/1.1 201 Created
+Date: Sat, 30 Aug 2025 20:18:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 183
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"b7-eZiT0+LD+gdUG1stxnuhd1rjbyY"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rdp5uWpS%2FH9h0DQ3Vl9eNlNc9Kh1L94wWF9j5LzhysTRYbQiQMg63YjGVtbx%2FCuKbTcIgZbCJJ%2B0azPOGaUbaWGZ%2B424Gpr84nwC8iO0%2FGY%3D"}]}
+Server: cloudflare
+CF-RAY: 9776fa06fe144137-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Bluetooth Headphones",
+    "price": 79.99,
+    "description": "Noise-canceling over-ear headphones with deep bass.",
+    "image": "https://i.pravatar.cc/102",
+    "category": "electronics"
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/products/21
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=21
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WPSCRuT%2BWoALUBtSQFcoTwumIX4wdQbH6%2FlEHHQIb%2BcS33llhoVHIaYibCHO4aT6ONz%2FJRiG4SbnkV21y1WDMrE%2Be%2Fr7dGhVUDvDdUCu"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa0b4d96ef2b-LHR
+alt-svc: h3=":443"; ma=86400
+
+null
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Smart Watch",
+    "price": 129.99,
+    "description": "Fitness smartwatch with heart rate monitor and GPS.",
+    "image": "https://i.pravatar.cc/103",
+    "category": "wearables"
+}
+HTTP/1.1 201 Created
+Date: Sat, 30 Aug 2025 20:18:20 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 173
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"ad-7cxJG2tqqr8I91/KgdGp1zBexAw"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lAqKCILk9OHXyzfPARiPdupN7DAsljJXqh2A9HPVtX8JIgbO3K7O4SXnebrjc9XOQSqJ%2F0Iak1U3HTVnarJAFq5i5ntoe4b29tA201dUKRI%3D"}]}
+Server: cloudflare
+CF-RAY: 9776fa100adb6391-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Smart Watch",
+    "price": 129.99,
+    "description": "Fitness smartwatch with heart rate monitor and GPS.",
+    "image": "https://i.pravatar.cc/103",
+    "category": "wearables"
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/products/21
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=21
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:21 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=3NGcomGw%2BLmvcDQShsyNPzQYQCRMLPWc0sFTAF%2FL32dZ9Ov1S%2FruXma9bTY%2FpaCjy1oGy0TV6DLIUmkvNR4d89u1mgWCdoaG21KTTIQbPE0%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa147d08c605-LHR
+alt-svc: h3=":443"; ma=86400
+
+null
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Portable Speaker",
+    "price": 39.99,
+    "description": "Waterproof Bluetooth speaker with 12-hour battery life.",
+    "image": "https://i.pravatar.cc/104",
+    "category": "audio"
+}
+HTTP/1.1 201 Created
+Date: Sat, 30 Aug 2025 20:18:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 177
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"b1-ej93fgqpSl1mUbDPlAMk7RGz4cc"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BeT1nUHe83RR2nrRIKqFKbQQYP16laDR4e19AfsoTviH2i8T7W6lbx6LuEdtGmjAJ1kKKuRCr9g41i2iYXSH5CaM6DruiJbmt%2B6xBgto9WU%3D"}]}
+Server: cloudflare
+CF-RAY: 9776fa18ef9e8880-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 21,
+    "title": "Portable Speaker",
+    "price": 39.99,
+    "description": "Waterproof Bluetooth speaker with 12-hour battery life.",
+    "image": "https://i.pravatar.cc/104",
+    "category": "audio"
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/products/21
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=21
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:23 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Zhlzd8%2Bt1WBY%2FFfGGnIKcUSIR1g31SQXOLqQiBIXxqlT8mWA3WN5JDVimGhsZQYr%2BTAQI58G0XA7EXYvX0RnuOTA9jrkQAQbAlBcyDBW04w%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa1d2d8a946d-LHR
+alt-svc: h3=":443"; ma=86400
+
+null
+Request method:	POST
+Request URI:	https://fakestoreapi.com/carts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": 1,
+    "date": "2025-08-31",
+    "products": [
+        {
+            "productId": 48,
+            "quantity": 2
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Sat, 30 Aug 2025 20:18:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 83
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"53-KA49NiAdyTeb98NL16sK4X9WM2s"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IU95wyuPplnuuBU67blhKGKN%2BkehnKHzZP%2FbJhwdr6mQktiuTRWZ7twPReOnWImIRo579mqoUFdXpYgRZIboYs7dWUzleWPY5XYCmymt4Aw%3D"}]}
+Server: cloudflare
+CF-RAY: 9776fa22ebb4fea9-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 11,
+    "userId": 1,
+    "date": "2025-08-31",
+    "products": [
+        {
+            "productId": 48,
+            "quantity": 2
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://fakestoreapi.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "wrongUser",
+    "password": "wrongPassword"
+}
+HTTP/1.1 401 Unauthorized
+Date: Sat, 30 Aug 2025 20:18:24 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 33
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"21-kqEUlF5d6RRpf3XO8rj97canyAM"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=s%2Bb4kT7vctzJFBzwTTTAGxA48EIQ6RP6lJAQ3lPgQPFCr96dGptAK66WHBlbac%2FmMOEWwZOBvzyIBdsiLOvum5htKlyZa1bRwFiAUrKV8uA%3D"}]}
+Server: cloudflare
+CF-RAY: 9776fa27bc0fd094-LHR
+alt-svc: h3=":443"; ma=86400
+
+<html>
+  <body>username or password is incorrect</body>
+</html>
+Request method:	POST
+Request URI:	https://fakestoreapi.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mor_2314",
+    "password": "83r5^_"
+}
+HTTP/1.1 201 Created
+Date: Sat, 30 Aug 2025 20:18:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 152
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"98-bDRdeYwkaOBBK83G4/Mqomd70zg"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IEYpqI4c%2BgVq2DnLj%2BOu783p9isEZoa%2BlR6RJC%2BJwilUhCQ%2FEMEGRW8TWDFLIB84pNhgLjkyW1bAOrP2Jjn7x6AcwJrFtBVCaRXZbjXanKE%3D"}]}
+Server: cloudflare
+CF-RAY: 9776fa2e1b3f773e-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1NjU4NTEwNX0.ooodt6w2wuePo4HcdojXZNZ9-AY4Y4TiqE5fT0-blys"
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FIoNkQSRnQ1afTVaEisAb42hkOUldI0Y2O02n6H%2BT6XxNCSRfP0UBNWn1nOEWkZEP4ayz5xtkXNMP9JtVMZv2RX%2Bc7wdXZ6e4o5IKQCPKW0%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa33aadb956c-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"16d-ryVvNeDR+OwaJd+i2vi/OPo/G4Y"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8lpEq3zDnY7xKE4EAT34zg%2FOvOzHKfLOwjWXiOkboUTHctbzndWqCsq319mRiyZe5m0MwFDyoh1KdWY1P0AGz2BlXtkKF3Us%2BPkLEyOEx1E%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa3b1cdc60b5-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nMJt59c9RGqvbscWL2iTPwb69s8v0UZilWrpuYv%2Fw0WLZjJ7cy%2FA6Us5nDmXxhR%2FQsvwYGS8ID5d2cZdPafwim1vCeSww8%2FDguv9paVq%2F%2Bw%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa3f3a0534ff-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}

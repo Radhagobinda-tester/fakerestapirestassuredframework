@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API TestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" name="User API Tests(failed)">
+    <classes>
+      <class name="testcases.UserTests">
+        <methods>
+          <include name="testGetUsersSorted"/>
+          <include name="testDeleteUser"/>
+          <include name="testGetUsersSortedAsc"/>
+          <include name="testGetAllUsers"/>
+          <include name="testGetUsersWithLimit"/>
+          <include name="testCreateUser"/>
+          <include name="testUpdateUser"/>
+          <include name="testGetUserById"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.UserTests -->
+    </classes>
+  </test> <!-- User API Tests(failed) -->
+  <test thread-count="5" name="Product API Tests(failed)">
+    <classes>
+      <class name="testcases.ProductTests">
+        <methods>
+          <include name="testGetSingleProductById"/>
+          <include name="testAddNewProduct"/>
+          <include name="testGetProductsByCategory"/>
+          <include name="testDeleteProduct"/>
+          <include name="testGetSortedProductsDesc"/>
+          <include name="testGetLimitedProducts"/>
+          <include name="testUpdateProduct"/>
+          <include name="testGetAllCategories"/>
+          <include name="testGetSortedProductsAsc"/>
+          <include name="testGetAllProducts"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.ProductTests -->
+      <class name="testcases.ProductDataDrivenTest">
+        <methods>
+          <include name="testAddNewProduct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.ProductDataDrivenTest -->
+    </classes>
+  </test> <!-- Product API Tests(failed) -->
+  <test thread-count="5" name="Cart API Tests(failed)">
+    <classes>
+      <class name="testcases.CartTests">
+        <methods>
+          <include name="testCreateCart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.CartTests -->
+    </classes>
+  </test> <!-- Cart API Tests(failed) -->
+  <test thread-count="5" name="Login API Tests(failed)">
+    <classes>
+      <class name="testcases.LoginTests">
+        <methods>
+          <include name="testValidUserLogin"/>
+          <include name="testInvalidUserLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.LoginTests -->
+    </classes>
+  </test> <!-- Login API Tests(failed) -->
+  <test thread-count="5" name="Schema Validation Tests(failed)">
+    <classes>
+      <class name="testcases.SchemaTests">
+        <methods>
+          <include name="testCartSchema"/>
+          <include name="testProductSchema"/>
+          <include name="testUserSchema"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.SchemaTests -->
+    </classes>
+  </test> <!-- Schema Validation Tests(failed) -->
+</suite> <!-- Failed suite [API TestSuite] -->

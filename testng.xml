@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- 
+TestNG XML configuration file
+This file defines:
+ - Suite name
+ - Listeners (for reporting like ExtentReports)
+ - Tests and their classes
+-->
+
+<suite name="API TestSuite" >
+    
+    <!-- Listener for custom reporting (Extent Report) -->
+    <listeners>
+        <listener class-name="utils.ExtentReporter"/>
+    </listeners>
+
+    <!-- User API Tests -->
+    <test name="User API Tests">
+        <classes>
+            <class name="testcases.UserTests"/>
+        </classes>
+    </test>
+
+    <!-- Product API Tests -->
+    <test name="Product API Tests">
+        <classes>
+            <class name="testcases.ProductTests"/>
+            <class name="testcases.ProductDataDrivenTest"/>
+        </classes>
+    </test>
+
+    <!-- Cart API Tests -->
+    <test name="Cart API Tests">
+        <classes>
+            <class name="testcases.CartTests"/>
+        </classes>
+    </test>
+
+    <!-- Login API Tests -->
+    <test name="Login API Tests">
+        <classes>
+            <class name="testcases.LoginTests"/>
+        </classes>
+    </test>
+
+    <!-- Schema Validation Tests -->
+    <test name="Schema Validation Tests">
+        <classes>
+            <class name="testcases.SchemaTests"/>
+        </classes>
+    </test>
+</suite>

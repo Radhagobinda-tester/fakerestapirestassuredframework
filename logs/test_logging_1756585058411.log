@@ -1,0 +1,48 @@
+Request method:	POST
+Request URI:	https://fakestoreapi.com/carts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": 1,
+    "date": "2025-08-31",
+    "products": [
+        {
+            "productId": 68,
+            "quantity": 4
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Sat, 30 Aug 2025 20:17:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 83
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"53-yQ65Pn2VWevj3XJ7xjIIKM0kgWc"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=M%2Fh9tBY9Xrzqfn1bGasSEepsacQQ%2BHl40YAKwbES0ySVlbE%2F2o7i%2BQ3knBJ%2BWbwR9hbdFzuJdXoiIkOd%2Bkow%2FWy2wcAhsXhWDo3THggRSfk%3D"}]}
+Server: cloudflare
+CF-RAY: 9776f92cba002d9c-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 11,
+    "userId": 1,
+    "date": "2025-08-31",
+    "products": [
+        {
+            "productId": 68,
+            "quantity": 4
+        }
+    ]
+}

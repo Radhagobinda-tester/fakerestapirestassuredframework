@@ -1,0 +1,203 @@
+Request method:	POST
+Request URI:	https://fakestoreapi.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "wrongUser",
+    "password": "wrongPassword"
+}
+HTTP/1.1 401 Unauthorized
+Date: Sat, 30 Aug 2025 20:18:24 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 33
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"21-kqEUlF5d6RRpf3XO8rj97canyAM"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=s%2Bb4kT7vctzJFBzwTTTAGxA48EIQ6RP6lJAQ3lPgQPFCr96dGptAK66WHBlbac%2FmMOEWwZOBvzyIBdsiLOvum5htKlyZa1bRwFiAUrKV8uA%3D"}]}
+Server: cloudflare
+CF-RAY: 9776fa27bc0fd094-LHR
+alt-svc: h3=":443"; ma=86400
+
+<html>
+  <body>username or password is incorrect</body>
+</html>
+Request method:	POST
+Request URI:	https://fakestoreapi.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mor_2314",
+    "password": "83r5^_"
+}
+HTTP/1.1 201 Created
+Date: Sat, 30 Aug 2025 20:18:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 152
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"98-bDRdeYwkaOBBK83G4/Mqomd70zg"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IEYpqI4c%2BgVq2DnLj%2BOu783p9isEZoa%2BlR6RJC%2BJwilUhCQ%2FEMEGRW8TWDFLIB84pNhgLjkyW1bAOrP2Jjn7x6AcwJrFtBVCaRXZbjXanKE%3D"}]}
+Server: cloudflare
+CF-RAY: 9776fa2e1b3f773e-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1NjU4NTEwNX0.ooodt6w2wuePo4HcdojXZNZ9-AY4Y4TiqE5fT0-blys"
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:26 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FIoNkQSRnQ1afTVaEisAb42hkOUldI0Y2O02n6H%2BT6XxNCSRfP0UBNWn1nOEWkZEP4ayz5xtkXNMP9JtVMZv2RX%2Bc7wdXZ6e4o5IKQCPKW0%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa33aadb956c-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"16d-ryVvNeDR+OwaJd+i2vi/OPo/G4Y"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8lpEq3zDnY7xKE4EAT34zg%2FOvOzHKfLOwjWXiOkboUTHctbzndWqCsq319mRiyZe5m0MwFDyoh1KdWY1P0AGz2BlXtkKF3Us%2BPkLEyOEx1E%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa3b1cdc60b5-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 30 Aug 2025 20:18:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+x-powered-by: Express
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nMJt59c9RGqvbscWL2iTPwb69s8v0UZilWrpuYv%2Fw0WLZjJ7cy%2FA6Us5nDmXxhR%2FQsvwYGS8ID5d2cZdPafwim1vCeSww8%2FDguv9paVq%2F%2Bw%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9776fa3f3a0534ff-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}

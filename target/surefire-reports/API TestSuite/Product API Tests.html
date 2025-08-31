@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  Product API Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Product API Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 31 01:51:08 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14501 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.ProductTests.testGetProductsByCategory()'><b>testGetProductsByCategory</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+<tr>
+<td title='testcases.ProductDataDrivenTest.testAddNewProduct()'><b>testAddNewProduct</b><br>Test class: testcases.ProductDataDrivenTest<br>Parameters: {title=Smart Watch, price=129.99, description=Fitness smartwatch with heart rate monitor and GPS., image=https://i.pravatar.cc/103, category=wearables}</td>
+<td></td>
+<td>1</td>
+<td>testcases.ProductDataDrivenTest@4f32a3ad</td></tr>
+<tr>
+<td title='testcases.ProductTests.testGetAllProducts()'><b>testGetAllProducts</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+<tr>
+<td title='testcases.ProductDataDrivenTest.testAddNewProduct()'><b>testAddNewProduct</b><br>Test class: testcases.ProductDataDrivenTest<br>Parameters: {title=Wireless Mouse, price=25.99, description=Ergonomic wireless mouse with adjustable DPI., image=https://i.pravatar.cc/100, category=electronic}</td>
+<td></td>
+<td>1</td>
+<td>testcases.ProductDataDrivenTest@4f32a3ad</td></tr>
+<tr>
+<td title='testcases.ProductTests.testGetAllCategories()'><b>testGetAllCategories</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+<tr>
+<td title='testcases.ProductTests.testGetSingleProductById()'><b>testGetSingleProductById</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+<tr>
+<td title='testcases.ProductTests.testUpdateProduct()'><b>testUpdateProduct</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+<tr>
+<td title='testcases.ProductDataDrivenTest.testAddNewProduct()'><b>testAddNewProduct</b><br>Test class: testcases.ProductDataDrivenTest<br>Parameters: {title=Gaming Keyboard, price=49.99, description=Mechanical gaming keyboard with RGB backlight., image=https://i.pravatar.cc/101, category=electronic}</td>
+<td></td>
+<td>1</td>
+<td>testcases.ProductDataDrivenTest@4f32a3ad</td></tr>
+<tr>
+<td title='testcases.ProductDataDrivenTest.testAddNewProduct()'><b>testAddNewProduct</b><br>Test class: testcases.ProductDataDrivenTest<br>Parameters: {title=Bluetooth Headphones, price=79.99, description=Noise-canceling over-ear headphones with deep bass., image=https://i.pravatar.cc/102, category=electronics}</td>
+<td></td>
+<td>1</td>
+<td>testcases.ProductDataDrivenTest@4f32a3ad</td></tr>
+<tr>
+<td title='testcases.ProductTests.testAddNewProduct()'><b>testAddNewProduct</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+<tr>
+<td title='testcases.ProductTests.testGetLimitedProducts()'><b>testGetLimitedProducts</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+<tr>
+<td title='testcases.ProductDataDrivenTest.testAddNewProduct()'><b>testAddNewProduct</b><br>Test class: testcases.ProductDataDrivenTest<br>Parameters: {title=Portable Speaker, price=39.99, description=Waterproof Bluetooth speaker with 12-hour battery life., image=https://i.pravatar.cc/104, category=audio}</td>
+<td></td>
+<td>1</td>
+<td>testcases.ProductDataDrivenTest@4f32a3ad</td></tr>
+<tr>
+<td title='testcases.ProductTests.testGetSortedProductsDesc()'><b>testGetSortedProductsDesc</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+<tr>
+<td title='testcases.ProductTests.testDeleteProduct()'><b>testDeleteProduct</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+<tr>
+<td title='testcases.ProductTests.testGetSortedProductsAsc()'><b>testGetSortedProductsAsc</b><br>Test class: testcases.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>testcases.ProductTests@71075444</td></tr>
+</table><p>
+</body>
+</html>
